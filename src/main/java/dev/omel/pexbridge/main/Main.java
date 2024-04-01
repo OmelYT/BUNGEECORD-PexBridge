@@ -1,5 +1,6 @@
-package dev.omel.name.main;
+package dev.omel.pexbridge.main;
 
+import dev.omel.pexbridge.listener.CommandHandler;
 import net.md_5.bungee.api.plugin.Plugin;
 
 public class Main extends Plugin {
@@ -17,6 +18,8 @@ public class Main extends Plugin {
     }
 
     private void registerListener() {
+
+        getProxy().getPluginManager().registerListener(this, new CommandHandler());
 
     }
 

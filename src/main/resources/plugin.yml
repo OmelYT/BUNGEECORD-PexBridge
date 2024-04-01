@@ -1,6 +1,5 @@
 author: Omel
-main: dev.omel.template.Main
+main: dev.omel.pexbridge.main.Main
 version: 0.0.1
-name: TemplatePlugin
-api-version: '1.20'
+name: PexBridge
 commands:
